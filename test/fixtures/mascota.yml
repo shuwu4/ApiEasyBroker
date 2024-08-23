@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+chencho:
+  title: Chencho
+  description: Encontrado
+  date: 2024-06-26
+
+two:
+  title: Roger
+  description: Desaparecido
+  date: 2024-06-26

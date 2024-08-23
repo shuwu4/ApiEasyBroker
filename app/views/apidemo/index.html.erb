@@ -1,0 +1,18 @@
+<h1 style= "margin-left: 15px";>Consumo de API</h1>
+<div class="card" style="width: auto; margin-left: 20px; margin-right: 20px;">
+    <table>
+    <tr>
+      <th>Títulos</th>
+    </tr>
+    <% @datosapi['content'].each do |contenido| %>
+    <tr>
+        <div class="grid-x"></div>
+        <td><%= contenido['title'] %></td> 
+    </tr>
+    <% end %>
+    </table>
+</div>
+<script>
+      $(document).foundation();
+</script>
+
